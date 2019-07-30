@@ -1,0 +1,283 @@
+body {
+  overflow: auto;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border: 2px solid #650c0c;
+  width: 60%;
+  background-image: url("../../images/Etoile.jpg");
+  overflow: auto;
+  max-height: 45em;
+  margin: 3em auto 0 auto;
+}
+
+#wrapper::-webkit-scrollbar {
+  width: 0.2em;
+}
+
+#wrapper::-webkit-scrollbar-track {
+  background-color: none;
+}
+
+#wrapper::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background-color: #13865d;
+}
+
+#Padding_Wrapper {
+  padding: 2em;
+}
+
+#Haut {
+  border-bottom: 2px solid #ff1822;
+}
+
+#Haut h1 {
+  font-family: "orbitron";
+  font-size: 2.2em;
+  margin: 0;
+  padding: 0;
+}
+
+#Haut h2, #Haut h3 {
+  font-family: "lato_light";
+}
+
+#Haut h2 {
+  font-size: 1.5em;
+}
+
+#Haut h3 {
+  font-size: 1.2em;
+}
+
+#Seconde_Ligne {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#Seconde_Ligne h2 {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+#Categorie_Projet {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+#Categorie_Projet i {
+  font-size: 1.5em;
+}
+
+#Categorie_Projet h3 {
+  font-family: "orbitron";
+  margin: 0 0.5em 0 0.5em;
+}
+
+#Contenu {
+  font-family: "lato";
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#Contenu h3 {
+  font-family: "orbitron";
+  color: #13865d;
+}
+
+#Contenu h3 span {
+  font-family: "lato";
+  color: white;
+}
+
+#Contenu h3 a {
+  text-decoration: none;
+  font-family: "lato";
+  color: white;
+}
+
+#Contenu h3 a:hover {
+  color: #ff1822;
+}
+
+#Role, #Client, #Langages, #Logiciels, #Lien {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#Description {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#Apercu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 1.5em 0 1.5em 0;
+  padding: 0;
+}
+
+.Image_Responsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#Apercu img {
+  width: 27.5%;
+  height: auto;
+  margin: 0 1em 0 1em;
+  padding: 0;
+}
+
+#Partage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 2px solid #13865d;
+  border-bottom: 2px solid #13865d;
+  border-left: 0;
+  border-right: 0;
+  min-height: 4em;
+}
+
+#Partage h4 {
+  font-weight: normal;
+  font-size: 1.4em;
+  font-family: "orbitron";
+  justify-content: flex-start;
+  width: 50%;
+}
+
+#Social_Icones {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  font-size: 2em;
+}
+
+#Social_Icones i {
+  margin: 0 0.5em 0 0.5em;
+}
+
+#Commentaires {
+  font-weight: normal;
+  font-size: 1.3em;
+  font-family: "orbitron";
+  margin: 1em 0 1em 0;
+  padding: 0;
+}
+
+#Commentaire_Answer {
+  display: flex;
+  flex-direction: column;
+}
+
+#Repondre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #13865d;
+  font-family: "lato";
+  width: 100%;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-reply {
+  margin-left: 0.5em;
+  color: #13865d;
+  justify-content: flex-end;
+}
+
+#Poster_Commentaire {
+  display: flex;
+  flex-direction: column;
+}
+
+#Poster_Commentaire textarea {
+  border: 1px solid #ff1822;
+  background-image: url("../../images/Etoile-Clair.jpg");
+  min-height: 10em;
+  margin-bottom: 2em;
+  color: white;
+  font-size: 1.1em;
+  font-family: "lato";
+}
+
+#Poster_Commentaire p {
+  font-family: "orbitron";
+  font-size: 1.4em;
+}
+
+#Poster_Commentaire button {
+  width: 30%;
+  color: white;
+  font-family: "orbitron";
+  font-size: 1.4em;
+  border: 1px solid #ff1822;
+  background-image: url("../../images/Etoile-Clair.jpg");
+  min-height: 2em;
+  margin: 0em auto 1em auto;
+  min-width: 10em;
+}
+
+.Pseudo_Commentaire {
+  font-weight: normal;
+  font-size: 1.2em;
+  font-family: "orbitron";
+  color: #13865d;
+  margin: 0;
+  padding: 0;
+}
+
+.Paragraphe_Commentaire {
+  font-family: "lato";
+  font-size: 1em;
+  margin: 0.5em 0 0 0;
+  padding: 0;
+}
+
+/* POUR LES ECRANS INFERIEURS A 1024px DE LARGE */
+@media screen and (max-width:1024px) {
+
+  footer {
+    display: none;
+  }
+
+  #Footer_Mobile {
+    margin-top: 0em;
+  }
+
+  #wrapper {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 0px solid #650c0c;
+    width: 100%;
+    margin: 0em auto 0em auto;
+    background-image: url("../../images/Etoile.jpg");
+    overflow: auto;
+    max-height: 100%;
+  }
+}
